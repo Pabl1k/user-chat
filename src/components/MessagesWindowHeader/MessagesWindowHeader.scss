@@ -1,0 +1,27 @@
+.messages-window-header {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  padding-left: 1.2rem;
+
+  &__company-user-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  &__company-name {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #ff0028;
+  }
+
+  &__company-user {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #0c0c0c;
+  }
+}

@@ -1,9 +1,4 @@
-import React from 'react';
-
-const Avatar = () => {
-    return (
-        <img/>
-    );
+export type AvatarType = {
+  path: string;
+  companyName?: string;
 };
-
-export default Avatar;

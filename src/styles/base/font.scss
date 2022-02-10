@@ -1,0 +1,13 @@
+:root {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  &--truncated {
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

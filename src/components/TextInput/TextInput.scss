@@ -1,0 +1,18 @@
+.text-input {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: 1.5rem;
+  width: 36.31rem;
+  height: 2.75rem;
+
+  &__icon {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 34rem;
+    margin-top: 0.7rem;
+  }
+}

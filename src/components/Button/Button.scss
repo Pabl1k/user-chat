@@ -1,0 +1,26 @@
+.button {
+  background: #ff0028;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #ffffff;
+  height: 2.75rem;
+  margin-left: 0.5rem;
+  width: 7rem;
+
+  &:hover {
+    background: #f3203f;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:hover {
+      background: #ff0028;
+    }
+  }
+}

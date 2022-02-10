@@ -1,0 +1,27 @@
+.clip-modal {
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 445px;
+
+  &__option-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__single-option {
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #b4b4b4;
+
+    &:hover {
+      background-color: #b4b4b4;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

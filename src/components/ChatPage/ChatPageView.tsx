@@ -1,16 +1,18 @@
 import React from "react";
 
-import "./ChatPage.scss";
+import ChatWindow from "../ChatWindow";
 
-const ChatPage = () => {
+import "./ChatPageView.scss";
+
+const ChatPageView = () => {
   return (
     <div className="chat-page">
       <div>
         <span className="chat-page__title">Messages</span>
-        <div className="chat-page__container">Lorem ipsum dolor sit amet.</div>
+        <ChatWindow />
       </div>
     </div>
   );
 };
 
-export default ChatPage;
+export default ChatPageView;

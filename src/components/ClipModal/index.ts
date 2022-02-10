@@ -1,1 +1,1 @@
-export { default } from "./ClipModalWindow";
+export { default } from "./ClipModal";
