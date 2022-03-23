@@ -47,53 +47,6 @@ export const chatsListState = [
     ],
   },
   {
-    icon: "https://pic.onlinewebfonts.com/svg/img_184513.png",
-    companyName: "Lorem Torem ltd.",
-    companyUser: "Lorem Lorem",
-    messages: [
-      {
-        message:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum eos esse explicabo harum id illo in molestiae mollitia, nulla odio optio sit, totam! Laborum, sed.",
-        dateTime: "4. 12. 17:35",
-        isReceived: true,
-      },
-      {
-        message:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum",
-        dateTime: "4. 12. 17:35",
-        isReceived: true,
-      },
-      {
-        message:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum",
-        dateTime: "4. 12. 17:35",
-        isReceived: true,
-      },
-      {
-        message:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum",
-        dateTime: "4. 12. 17:35",
-        isReceived: false,
-      },
-      {
-        message:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum",
-        dateTime: "4. 12. 17:35",
-        isReceived: false,
-      },
-      {
-        message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        dateTime: "8:00",
-        isReceived: false,
-      },
-      {
-        message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        dateTime: "8:00",
-        isReceived: false,
-      },
-    ],
-  },
-  {
     icon: "https://d29fhpw069ctt2.cloudfront.net/icon/image/84587/preview.svg",
     companyName: "Oorem Porem ltd.",
     companyUser: "Lorem Lorem",

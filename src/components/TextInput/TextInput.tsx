@@ -1,8 +1,8 @@
-import React, { FC } from "react";
+import React, {FC} from "react";
 
-import { ReactComponent as ClipIcon } from "../../assets/Icons/clip.svg";
+import {ReactComponent as ClipIcon} from "../../assets/Icons/clip.svg";
 
-import { TextInputType } from "./TextInput.type";
+import {TextInputType} from "./TextInput.type";
 import "./TextInput.scss";
 
 const TextInput: FC<TextInputType> = ({
@@ -13,6 +13,12 @@ const TextInput: FC<TextInputType> = ({
   value,
   setValue,
 }) => {
+  function enterKey(e: string): void {
+    if (e === "Enter" && value) {
+      setValue("");
+      alert(`Your message is: ${value}`);
+    }
+  }
   return (
     <>
       {showIcon && (
@@ -24,6 +30,7 @@ const TextInput: FC<TextInputType> = ({
         placeholder={placeholder}
         className="text-input"
         onChange={(e) => setValue(e.currentTarget.value)}
+        onKeyPress={(e) => enterKey(e.key)}
       />
     </>
   );

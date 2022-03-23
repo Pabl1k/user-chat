@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Scrollbars from "react-custom-scrollbars";
-
 import ChatsListBar from "../ChatsListBar";
 import MessagesWindow from "../MessagesWindow";
 import { chatsListState } from "../../state";
@@ -8,7 +7,7 @@ import "./ChatWindow.scss";
 
 const ChatWindow = () => {
   /**
-   * By default will be shown first chat from the top
+   * By default, will be shown first chat from the top
    */
   const [selectedChatIndex, setSelectedChatIndex] = useState<number>(0);
 
