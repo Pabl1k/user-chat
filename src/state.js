@@ -32,7 +32,7 @@ export const chatsListState = [
         message:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, commodi consequatur dolore earum",
         dateTime: "4. 12. 17:35",
-        isReceived: false,
+        isReceived: true,
       },
       {
         message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
@@ -42,7 +42,7 @@ export const chatsListState = [
       {
         message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         dateTime: "8:00",
-        isReceived: false,
+        isReceived: true,
       },
     ],
   },
